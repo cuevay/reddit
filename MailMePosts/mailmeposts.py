@@ -5,19 +5,19 @@ import sqlite3
 
 '''USER CONFIGURATION'''
 
-USERNAME  = ""
+USERNAME  = "Cuevaybot"
 #This is the bot's Username. In order to send mail, he must have some amount of Karma.
-PASSWORD  = ""
+PASSWORD  = "Cuevay"
 #This is the bot's Password. 
-RECIPIENT = ""
+RECIPIENT = "cuevay"
 #The username that will receive this PM. It can be the same as USERNAME if you want to
-MTITLE = ""
+MTITLE = "data:"
 #This will be the title of the PM that you get
-USERAGENT = ""
+USERAGENT = "get data"
 #This is a short description of what the bot does. For example "/u/GoldenSights' Newsletter bot"
 SUBREDDIT = "all"
 #This is the sub or list of subs to scan for new posts. For a single sub, use "sub1". For multiple subreddits, use "sub1+sub2+sub3+..."
-PARENTSTRING = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
+PARENTSTRING = ["wine", "sonoma", "napa", "tasting room"]
 #These are the words that you are looking for
 MAXPOSTS = 100
 #This is how many posts you want to retrieve all at once. PRAW can download 100 at a time.
